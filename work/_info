@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/F__IC__Code/2016_LBP/Code_V3_6219_780184
+vSET
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bQ^ZRHaj213oD4VlBD27a0
+IHgd6;AHeZhVB187P[FH>X0
+Z1 dE:/F__IC__Code/2015_M/2
+w1659974750
+8E:/F__IC__Code/2015_M/2/SET.v
+FE:/F__IC__Code/2015_M/2/SET.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1659974752.313000
+!s107 E:/F__IC__Code/2015_M/2/SET.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/F__IC__Code/2015_M/2/SET.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@s@e@t
+vtestfixture1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?baPk2W2Xo^K?QVMAVJz`0
+Ib5a@z_NzAbRYli@mj[`:e2
+R1
+w1659971237
+8E:/F__IC__Code/2015_M/2/testfixture.v
+FE:/F__IC__Code/2015_M/2/testfixture.v
+L0 7
+R2
+!s108 1659974752.390000
+!s107 E:/F__IC__Code/2015_M/2/testfixture.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/F__IC__Code/2015_M/2/testfixture.v|
+!i113 0
+R3

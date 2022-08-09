@@ -1,0 +1,8 @@
+E:/F__IC__Code/2015_M/2/testfixture.v {1 {vlog -work work -vopt -stats=none E:/F__IC__Code/2015_M/2/testfixture.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module testfixture1
+
+Top level modules:
+	testfixture1
+
+} {} {}}

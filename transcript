@@ -1,0 +1,1690 @@
+# Reading C:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile E:/F__IC__Code/2015_M/2/SET.mpf
+# Loading project SET
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui +notimingchecks -novopt work.testfixture1
+# vsim -gui E:\F__IC__Code\2015_M\2\SET.mpf 
+# Start time: 21:46:51 on Aug 08,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+add wave -position end sim:/testfixture1/u_set/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Youwei  Hostname: DESKTOP-6SC6K2M  ProcessID: 30044
+# 
+#           Attempting to use alternate WLF file "./wlfth030td".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfth030td
+# 
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 4. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 3 is PASS !
+#  Pattern           1 at Mode 3 is PASS !
+#  Pattern           2 at Mode 3 is PASS !
+#  Pattern           3 at Mode 3 is PASS !
+#  Pattern           4 at Mode 3 is PASS !
+#  Pattern           5 at Mode 3 is PASS !
+#  Pattern           6 at Mode 3 is PASS !
+#  Pattern           7 at Mode 3 is PASS !
+#  Pattern           8 at Mode 3 is PASS !
+#  Pattern           9 at Mode 3 is PASS !
+#  Pattern          10 at Mode 3 is PASS !
+#  Pattern          11 at Mode 3 is PASS !
+#  Pattern          12 at Mode 3 is PASS !
+#  Pattern          13 at Mode 3 is PASS !
+#  Pattern          14 at Mode 3 is PASS !
+#  Pattern          15 at Mode 3 is PASS !
+#  Pattern          16 at Mode 3 is PASS !
+#  Pattern          17 at Mode 3 is PASS !
+#  Pattern          18 at Mode 3 is PASS !
+#  Pattern          19 at Mode 3 is PASS !
+#  Pattern          20 at Mode 3 is PASS !
+#  Pattern          21 at Mode 3 is PASS !
+#  Pattern          22 at Mode 3 is PASS !
+#  Pattern          23 at Mode 3 is PASS !
+#  Pattern          24 at Mode 3 is PASS !
+#  Pattern          25 at Mode 3 is PASS !
+#  Pattern          26 at Mode 3 is PASS !
+#  Pattern          27 at Mode 3 is PASS !
+#  Pattern          28 at Mode 3 is PASS !
+#  Pattern          29 at Mode 3 is PASS !
+#  Pattern          30 at Mode 3 is PASS !
+#  Pattern          31 at Mode 3 is PASS !
+#  Pattern          32 at Mode 3 is PASS !
+#  Pattern          33 at Mode 3 is PASS !
+#  Pattern          34 at Mode 3 is PASS !
+#  Pattern          35 at Mode 3 is PASS !
+#  Pattern          36 at Mode 3 is PASS !
+#  Pattern          37 at Mode 3 is PASS !
+#  Pattern          38 at Mode 3 is PASS !
+#  Pattern          39 at Mode 3 is PASS !
+#  Pattern          40 at Mode 3 is PASS !
+#  Pattern          41 at Mode 3 is PASS !
+#  Pattern          42 at Mode 3 is PASS !
+#  Pattern          43 at Mode 3 is PASS !
+#  Pattern          44 at Mode 3 is PASS !
+#  Pattern          45 at Mode 3 is PASS !
+#  Pattern          46 at Mode 3 is PASS !
+#  Pattern          47 at Mode 3 is PASS !
+#  Pattern          48 at Mode 3 is PASS !
+#  Pattern          49 at Mode 3 is PASS !
+#  Pattern          50 at Mode 3 is PASS !
+#  Pattern          51 at Mode 3 is PASS !
+#  Pattern          52 at Mode 3 is PASS !
+#  Pattern          53 at Mode 3 is PASS !
+#  Pattern          54 at Mode 3 is PASS !
+#  Pattern          55 at Mode 3 is PASS !
+#  Pattern          56 at Mode 3 is PASS !
+#  Pattern          57 at Mode 3 is PASS !
+#  Pattern          58 at Mode 3 is PASS !
+#  Pattern          59 at Mode 3 is PASS !
+#  Pattern          60 at Mode 3 is PASS !
+#  Pattern          61 at Mode 3 is PASS !
+#  Pattern          62 at Mode 3 is PASS !
+#  Pattern          63 at Mode 3 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 779580 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 4. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 3 is PASS !
+#  Pattern           1 at Mode 3 is PASS !
+#  Pattern           2 at Mode 3 is PASS !
+#  Pattern           3 at Mode 3 is PASS !
+#  Pattern           4 at Mode 3 is PASS !
+#  Pattern           5 at Mode 3 is PASS !
+#  Pattern           6 at Mode 3 is PASS !
+#  Pattern           7 at Mode 3 is PASS !
+#  Pattern           8 at Mode 3 is PASS !
+#  Pattern           9 at Mode 3 is PASS !
+#  Pattern          10 at Mode 3 is PASS !
+#  Pattern          11 at Mode 3 is PASS !
+#  Pattern          12 at Mode 3 is PASS !
+#  Pattern          13 at Mode 3 is PASS !
+#  Pattern          14 at Mode 3 is PASS !
+#  Pattern          15 at Mode 3 is PASS !
+#  Pattern          16 at Mode 3 is PASS !
+#  Pattern          17 at Mode 3 is PASS !
+#  Pattern          18 at Mode 3 is PASS !
+#  Pattern          19 at Mode 3 is PASS !
+#  Pattern          20 at Mode 3 is PASS !
+#  Pattern          21 at Mode 3 is PASS !
+#  Pattern          22 at Mode 3 is PASS !
+#  Pattern          23 at Mode 3 is PASS !
+#  Pattern          24 at Mode 3 is PASS !
+#  Pattern          25 at Mode 3 is PASS !
+#  Pattern          26 at Mode 3 is PASS !
+#  Pattern          27 at Mode 3 is PASS !
+#  Pattern          28 at Mode 3 is PASS !
+#  Pattern          29 at Mode 3 is PASS !
+#  Pattern          30 at Mode 3 is PASS !
+#  Pattern          31 at Mode 3 is PASS !
+#  Pattern          32 at Mode 3 is PASS !
+#  Pattern          33 at Mode 3 is PASS !
+#  Pattern          34 at Mode 3 is PASS !
+#  Pattern          35 at Mode 3 is PASS !
+#  Pattern          36 at Mode 3 is PASS !
+#  Pattern          37 at Mode 3 is PASS !
+#  Pattern          38 at Mode 3 is PASS !
+#  Pattern          39 at Mode 3 is PASS !
+#  Pattern          40 at Mode 3 is PASS !
+#  Pattern          41 at Mode 3 is PASS !
+#  Pattern          42 at Mode 3 is PASS !
+#  Pattern          43 at Mode 3 is PASS !
+#  Pattern          44 at Mode 3 is PASS !
+#  Pattern          45 at Mode 3 is PASS !
+#  Pattern          46 at Mode 3 is PASS !
+#  Pattern          47 at Mode 3 is PASS !
+#  Pattern          48 at Mode 3 is PASS !
+#  Pattern          49 at Mode 3 is PASS !
+#  Pattern          50 at Mode 3 is PASS !
+#  Pattern          51 at Mode 3 is PASS !
+#  Pattern          52 at Mode 3 is PASS !
+#  Pattern          53 at Mode 3 is PASS !
+#  Pattern          54 at Mode 3 is PASS !
+#  Pattern          55 at Mode 3 is PASS !
+#  Pattern          56 at Mode 3 is PASS !
+#  Pattern          57 at Mode 3 is PASS !
+#  Pattern          58 at Mode 3 is PASS !
+#  Pattern          59 at Mode 3 is PASS !
+#  Pattern          60 at Mode 3 is PASS !
+#  Pattern          61 at Mode 3 is PASS !
+#  Pattern          62 at Mode 3 is PASS !
+#  Pattern          63 at Mode 3 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 779580 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 4. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 3 is PASS !
+#  Pattern           1 at Mode 3 is PASS !
+#  Pattern           2 at Mode 3 is PASS !
+#  Pattern           3 at Mode 3 is PASS !
+#  Pattern           4 at Mode 3 is PASS !
+#  Pattern           5 at Mode 3 is PASS !
+#  Pattern           6 at Mode 3 is PASS !
+#  Pattern           7 at Mode 3 is PASS !
+#  Pattern           8 at Mode 3 is PASS !
+#  Pattern           9 at Mode 3 is PASS !
+#  Pattern          10 at Mode 3 is PASS !
+#  Pattern          11 at Mode 3 is PASS !
+#  Pattern          12 at Mode 3 is PASS !
+#  Pattern          13 at Mode 3 is PASS !
+#  Pattern          14 at Mode 3 is PASS !
+#  Pattern          15 at Mode 3 is PASS !
+#  Pattern          16 at Mode 3 is PASS !
+#  Pattern          17 at Mode 3 is PASS !
+#  Pattern          18 at Mode 3 is PASS !
+#  Pattern          19 at Mode 3 is PASS !
+#  Pattern          20 at Mode 3 is PASS !
+#  Pattern          21 at Mode 3 is PASS !
+#  Pattern          22 at Mode 3 is PASS !
+#  Pattern          23 at Mode 3 is PASS !
+#  Pattern          24 at Mode 3 is PASS !
+#  Pattern          25 at Mode 3 is PASS !
+#  Pattern          26 at Mode 3 is PASS !
+#  Pattern          27 at Mode 3 is PASS !
+#  Pattern          28 at Mode 3 is PASS !
+#  Pattern          29 at Mode 3 is PASS !
+#  Pattern          30 at Mode 3 is PASS !
+#  Pattern          31 at Mode 3 is PASS !
+#  Pattern          32 at Mode 3 is PASS !
+#  Pattern          33 at Mode 3 is PASS !
+#  Pattern          34 at Mode 3 is PASS !
+#  Pattern          35 at Mode 3 is PASS !
+#  Pattern          36 at Mode 3 is PASS !
+#  Pattern          37 at Mode 3 is PASS !
+#  Pattern          38 at Mode 3 is PASS !
+#  Pattern          39 at Mode 3 is PASS !
+#  Pattern          40 at Mode 3 is PASS !
+#  Pattern          41 at Mode 3 is PASS !
+#  Pattern          42 at Mode 3 is PASS !
+#  Pattern          43 at Mode 3 is PASS !
+#  Pattern          44 at Mode 3 is PASS !
+#  Pattern          45 at Mode 3 is PASS !
+#  Pattern          46 at Mode 3 is PASS !
+#  Pattern          47 at Mode 3 is PASS !
+#  Pattern          48 at Mode 3 is PASS !
+#  Pattern          49 at Mode 3 is PASS !
+#  Pattern          50 at Mode 3 is PASS !
+#  Pattern          51 at Mode 3 is PASS !
+#  Pattern          52 at Mode 3 is PASS !
+#  Pattern          53 at Mode 3 is PASS !
+#  Pattern          54 at Mode 3 is PASS !
+#  Pattern          55 at Mode 3 is PASS !
+#  Pattern          56 at Mode 3 is PASS !
+#  Pattern          57 at Mode 3 is PASS !
+#  Pattern          58 at Mode 3 is PASS !
+#  Pattern          59 at Mode 3 is PASS !
+#  Pattern          60 at Mode 3 is PASS !
+#  Pattern          61 at Mode 3 is PASS !
+#  Pattern          62 at Mode 3 is PASS !
+#  Pattern          63 at Mode 3 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 779580 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 4. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 3 is PASS !
+#  Pattern           1 at Mode 3 is PASS !
+#  Pattern           2 at Mode 3 is PASS !
+#  Pattern           3 at Mode 3 is PASS !
+#  Pattern           4 at Mode 3 is PASS !
+#  Pattern           5 at Mode 3 is PASS !
+#  Pattern           6 at Mode 3 is PASS !
+#  Pattern           7 at Mode 3 is PASS !
+#  Pattern           8 at Mode 3 is PASS !
+#  Pattern           9 at Mode 3 is PASS !
+#  Pattern          10 at Mode 3 is PASS !
+#  Pattern          11 at Mode 3 is PASS !
+#  Pattern          12 at Mode 3 is PASS !
+#  Pattern          13 at Mode 3 is PASS !
+#  Pattern          14 at Mode 3 is PASS !
+#  Pattern          15 at Mode 3 is PASS !
+#  Pattern          16 at Mode 3 is PASS !
+#  Pattern          17 at Mode 3 is PASS !
+#  Pattern          18 at Mode 3 is PASS !
+#  Pattern          19 at Mode 3 is PASS !
+#  Pattern          20 at Mode 3 is PASS !
+#  Pattern          21 at Mode 3 is PASS !
+#  Pattern          22 at Mode 3 is PASS !
+#  Pattern          23 at Mode 3 is PASS !
+#  Pattern          24 at Mode 3 is PASS !
+#  Pattern          25 at Mode 3 is PASS !
+#  Pattern          26 at Mode 3 is PASS !
+#  Pattern          27 at Mode 3 is PASS !
+#  Pattern          28 at Mode 3 is PASS !
+#  Pattern          29 at Mode 3 is PASS !
+#  Pattern          30 at Mode 3 is PASS !
+#  Pattern          31 at Mode 3 is PASS !
+#  Pattern          32 at Mode 3 is PASS !
+#  Pattern          33 at Mode 3 is PASS !
+#  Pattern          34 at Mode 3 is PASS !
+#  Pattern          35 at Mode 3 is PASS !
+#  Pattern          36 at Mode 3 is PASS !
+#  Pattern          37 at Mode 3 is PASS !
+#  Pattern          38 at Mode 3 is PASS !
+#  Pattern          39 at Mode 3 is PASS !
+#  Pattern          40 at Mode 3 is PASS !
+#  Pattern          41 at Mode 3 is PASS !
+#  Pattern          42 at Mode 3 is PASS !
+#  Pattern          43 at Mode 3 is PASS !
+#  Pattern          44 at Mode 3 is PASS !
+#  Pattern          45 at Mode 3 is PASS !
+#  Pattern          46 at Mode 3 is PASS !
+#  Pattern          47 at Mode 3 is PASS !
+#  Pattern          48 at Mode 3 is PASS !
+#  Pattern          49 at Mode 3 is PASS !
+#  Pattern          50 at Mode 3 is PASS !
+#  Pattern          51 at Mode 3 is PASS !
+#  Pattern          52 at Mode 3 is PASS !
+#  Pattern          53 at Mode 3 is PASS !
+#  Pattern          54 at Mode 3 is PASS !
+#  Pattern          55 at Mode 3 is PASS !
+#  Pattern          56 at Mode 3 is PASS !
+#  Pattern          57 at Mode 3 is PASS !
+#  Pattern          58 at Mode 3 is PASS !
+#  Pattern          59 at Mode 3 is PASS !
+#  Pattern          60 at Mode 3 is PASS !
+#  Pattern          61 at Mode 3 is PASS !
+#  Pattern          62 at Mode 3 is PASS !
+#  Pattern          63 at Mode 3 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 779580 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 4. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 3 is PASS !
+#  Pattern           1 at Mode 3 is PASS !
+#  Pattern           2 at Mode 3 is PASS !
+#  Pattern           3 at Mode 3 is PASS !
+#  Pattern           4 at Mode 3 is PASS !
+#  Pattern           5 at Mode 3 is PASS !
+#  Pattern           6 at Mode 3 is PASS !
+#  Pattern           7 at Mode 3 is PASS !
+#  Pattern           8 at Mode 3 is PASS !
+#  Pattern           9 at Mode 3 is PASS !
+#  Pattern          10 at Mode 3 is PASS !
+#  Pattern          11 at Mode 3 is PASS !
+#  Pattern          12 at Mode 3 is PASS !
+#  Pattern          13 at Mode 3 is PASS !
+#  Pattern          14 at Mode 3 is PASS !
+#  Pattern          15 at Mode 3 is PASS !
+#  Pattern          16 at Mode 3 is PASS !
+#  Pattern          17 at Mode 3 is PASS !
+#  Pattern          18 at Mode 3 is PASS !
+#  Pattern          19 at Mode 3 is PASS !
+#  Pattern          20 at Mode 3 is PASS !
+#  Pattern          21 at Mode 3 is PASS !
+#  Pattern          22 at Mode 3 is PASS !
+#  Pattern          23 at Mode 3 is PASS !
+#  Pattern          24 at Mode 3 is PASS !
+#  Pattern          25 at Mode 3 is PASS !
+#  Pattern          26 at Mode 3 is PASS !
+#  Pattern          27 at Mode 3 is PASS !
+#  Pattern          28 at Mode 3 is PASS !
+#  Pattern          29 at Mode 3 is PASS !
+#  Pattern          30 at Mode 3 is PASS !
+#  Pattern          31 at Mode 3 is PASS !
+#  Pattern          32 at Mode 3 is PASS !
+#  Pattern          33 at Mode 3 is PASS !
+#  Pattern          34 at Mode 3 is PASS !
+#  Pattern          35 at Mode 3 is PASS !
+#  Pattern          36 at Mode 3 is PASS !
+#  Pattern          37 at Mode 3 is PASS !
+#  Pattern          38 at Mode 3 is PASS !
+#  Pattern          39 at Mode 3 is PASS !
+#  Pattern          40 at Mode 3 is PASS !
+#  Pattern          41 at Mode 3 is PASS !
+#  Pattern          42 at Mode 3 is PASS !
+#  Pattern          43 at Mode 3 is PASS !
+#  Pattern          44 at Mode 3 is PASS !
+#  Pattern          45 at Mode 3 is PASS !
+#  Pattern          46 at Mode 3 is PASS !
+#  Pattern          47 at Mode 3 is PASS !
+#  Pattern          48 at Mode 3 is PASS !
+#  Pattern          49 at Mode 3 is PASS !
+#  Pattern          50 at Mode 3 is PASS !
+#  Pattern          51 at Mode 3 is PASS !
+#  Pattern          52 at Mode 3 is PASS !
+#  Pattern          53 at Mode 3 is PASS !
+#  Pattern          54 at Mode 3 is PASS !
+#  Pattern          55 at Mode 3 is PASS !
+#  Pattern          56 at Mode 3 is PASS !
+#  Pattern          57 at Mode 3 is PASS !
+#  Pattern          58 at Mode 3 is PASS !
+#  Pattern          59 at Mode 3 is PASS !
+#  Pattern          60 at Mode 3 is PASS !
+#  Pattern          61 at Mode 3 is PASS !
+#  Pattern          62 at Mode 3 is PASS !
+#  Pattern          63 at Mode 3 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 779580 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+add wave -position 3  sim:/testfixture1/u_set/mode
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v failed with 4 errors.
+# Compile of testfixture.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of SET.v failed with 4 errors.
+# Compile of testfixture.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v failed with 1 errors.
+# Compile of testfixture.v was successful.
+# 2 compiles, 1 failed with 1 error.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+vlog testfixture.v SET.v +define+MD1
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:57:16 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:57:16 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+vlog testfixture.v SET.v +define+MD1
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:57:58 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:57:58 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog testfixture. SET.v +define+MD1
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:58:33 on Aug 08,2022
+# vlog -reportprogress 300 testfixture. SET.v "+define+MD1" 
+# ** Error: (vlog-7) Failed to open design unit file "testfixture." in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 22:58:33 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/modeltech64_10.4/win64/vlog failed.
+vlog testfixture.v SET.v +define+MD1
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:58:40 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:58:40 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog testfixture.v SET.v +define+MD1 +notimingchecks
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:59:12 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" "+notimingchecks" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:59:12 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+# ============================================================================
+# |                                                                          |
+# |  Please select one testbench for test !!                                 |
+# |  Simulation can't be initialized !!                                      |
+# |                                                                          |
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(64)
+#    Time: 1 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 64
+vlog testfixture.v SET.v +define+MD1 +notimingchecks
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:59:27 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" "+notimingchecks" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:59:27 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+#  Pattern           0 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           1 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           2 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           3 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           4 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           5 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           6 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           7 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           8 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern           9 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+# ============================================================================
+# 
+#  (>_<) FAIL!! The simulation FAIL result is too many ! Please check your code @@ 
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(140)
+#    Time: 45040 ns  Iteration: 2  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 140
+vlog testfixture.v SET.v +define+MD1 +notimingchecks
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:59:55 on Aug 08,2022
+# vlog -reportprogress 300 testfixture.v SET.v "+define+MD1" "+notimingchecks" 
+# -- Compiling module testfixture1
+# -- Compiling module SET
+# 
+# Top level modules:
+# 	testfixture1
+# End time: 22:59:55 on Aug 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run -all
+#  Pattern          10 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          11 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          12 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          13 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          14 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          15 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          16 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          17 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          18 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          19 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          20 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          21 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          22 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          23 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          24 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          25 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          26 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          27 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          28 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          29 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          30 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          31 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          32 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          33 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          34 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          35 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          36 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          37 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          38 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          39 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          40 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          41 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          42 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          43 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          44 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          45 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          46 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          47 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          48 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          49 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          50 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          51 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          52 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          53 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          54 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          55 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          56 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          57 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          58 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          59 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          60 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          61 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          62 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+#  Pattern          63 at Mode x is FAIL !. Expected candidate =   x, but the Response candidate =   0 !! 
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  (T_T) FAIL!! The simulation result is FAIL!!! there were          64 errors at all.
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# Compile of SET.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing E:/F__IC__Code/2015_M/2/work.testfixture1
+# Loading work.testfixture1
+# Refreshing E:/F__IC__Code/2015_M/2/work.SET
+# Loading work.SET
+run -all
+# --------------------------- [ Function 1. Simulation START !! ] ---------------------------
+#  Pattern           0 at Mode 0 is PASS !
+#  Pattern           1 at Mode 0 is PASS !
+#  Pattern           2 at Mode 0 is PASS !
+#  Pattern           3 at Mode 0 is PASS !
+#  Pattern           4 at Mode 0 is PASS !
+#  Pattern           5 at Mode 0 is PASS !
+#  Pattern           6 at Mode 0 is PASS !
+#  Pattern           7 at Mode 0 is PASS !
+#  Pattern           8 at Mode 0 is PASS !
+#  Pattern           9 at Mode 0 is PASS !
+#  Pattern          10 at Mode 0 is PASS !
+#  Pattern          11 at Mode 0 is PASS !
+#  Pattern          12 at Mode 0 is PASS !
+#  Pattern          13 at Mode 0 is PASS !
+#  Pattern          14 at Mode 0 is PASS !
+#  Pattern          15 at Mode 0 is PASS !
+#  Pattern          16 at Mode 0 is PASS !
+#  Pattern          17 at Mode 0 is PASS !
+#  Pattern          18 at Mode 0 is PASS !
+#  Pattern          19 at Mode 0 is PASS !
+#  Pattern          20 at Mode 0 is PASS !
+#  Pattern          21 at Mode 0 is PASS !
+#  Pattern          22 at Mode 0 is PASS !
+#  Pattern          23 at Mode 0 is PASS !
+#  Pattern          24 at Mode 0 is PASS !
+#  Pattern          25 at Mode 0 is PASS !
+#  Pattern          26 at Mode 0 is PASS !
+#  Pattern          27 at Mode 0 is PASS !
+#  Pattern          28 at Mode 0 is PASS !
+#  Pattern          29 at Mode 0 is PASS !
+#  Pattern          30 at Mode 0 is PASS !
+#  Pattern          31 at Mode 0 is PASS !
+#  Pattern          32 at Mode 0 is PASS !
+#  Pattern          33 at Mode 0 is PASS !
+#  Pattern          34 at Mode 0 is PASS !
+#  Pattern          35 at Mode 0 is PASS !
+#  Pattern          36 at Mode 0 is PASS !
+#  Pattern          37 at Mode 0 is PASS !
+#  Pattern          38 at Mode 0 is PASS !
+#  Pattern          39 at Mode 0 is PASS !
+#  Pattern          40 at Mode 0 is PASS !
+#  Pattern          41 at Mode 0 is PASS !
+#  Pattern          42 at Mode 0 is PASS !
+#  Pattern          43 at Mode 0 is PASS !
+#  Pattern          44 at Mode 0 is PASS !
+#  Pattern          45 at Mode 0 is PASS !
+#  Pattern          46 at Mode 0 is PASS !
+#  Pattern          47 at Mode 0 is PASS !
+#  Pattern          48 at Mode 0 is PASS !
+#  Pattern          49 at Mode 0 is PASS !
+#  Pattern          50 at Mode 0 is PASS !
+#  Pattern          51 at Mode 0 is PASS !
+#  Pattern          52 at Mode 0 is PASS !
+#  Pattern          53 at Mode 0 is PASS !
+#  Pattern          54 at Mode 0 is PASS !
+#  Pattern          55 at Mode 0 is PASS !
+#  Pattern          56 at Mode 0 is PASS !
+#  Pattern          57 at Mode 0 is PASS !
+#  Pattern          58 at Mode 0 is PASS !
+#  Pattern          59 at Mode 0 is PASS !
+#  Pattern          60 at Mode 0 is PASS !
+#  Pattern          61 at Mode 0 is PASS !
+#  Pattern          62 at Mode 0 is PASS !
+#  Pattern          63 at Mode 0 is PASS !
+# --------------------------- Simulation FINISH !!---------------------------
+# ============================================================================
+# 
+#  \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+# 
+# ============================================================================
+# ** Note: $finish    : E:/F__IC__Code/2015_M/2/testfixture.v(131)
+#    Time: 288060 ns  Iteration: 0  Instance: /testfixture1
+# 1
+# Break in Module testfixture1 at E:/F__IC__Code/2015_M/2/testfixture.v line 131
+# End time: 14:00:19 on Aug 09,2022, Elapsed time: 16:13:28
+# Errors: 2, Warnings: 21
